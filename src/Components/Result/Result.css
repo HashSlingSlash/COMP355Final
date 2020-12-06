@@ -1,0 +1,80 @@
+.pet{
+    width: 75%;
+    text-align: center;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    position: relative;
+}
+
+#back{
+    display: block;
+    width: 30%;
+    margin: auto;
+}
+
+.row{
+    justify-content: center;
+}
+
+.more{
+    border: 3px solid black;
+    height: fit-content;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    width: fit-content;
+    padding-right: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lts{
+    margin-top: 1em;
+}
+
+.favorite{
+    height: 75px;
+    width: 400px;
+    margin: auto;
+}
+
+.more .email{
+    width: 200px;    
+}
+
+@media (min-width: 768px){
+    select{
+      width: 35%;
+      margin-top: 2em;
+    }
+  
+    .pet{
+      display: inline-block;
+      width: 75%;
+      margin: 1em auto;
+    }
+  }
+  
+  @media (min-width: 992px){
+    select{
+      width: 20%;
+      margin-top: 2em;
+      margin-right: 1em;
+      margin-left: 1em;
+      display: inline;
+    }
+  
+    .pet{
+      display: inline-block;
+      width: 30%;
+      margin-right: 1em;
+      margin-left: 1em;
+      height: 30%;
+    }
+
+    .list{
+        text-align: left;
+    }
+
+  }

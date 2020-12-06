@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    background-color: lightskyblue;
+}
+
+h1{
+    margin-top: 2%;
+}
+
+#galleryButton{
+    margin-top: 2%;
+    width: 200px;
+}
